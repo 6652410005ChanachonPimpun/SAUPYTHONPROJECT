@@ -1,0 +1,5 @@
+name = input('ชื่อสินค้า = ')
+price = float(input('ราคาสินค้า = '))
+total = price + (price * 10/100)
+print('..........................')
+print('ราคาของสินค้า',name,'มีราคาขาย',total,'บาท')
